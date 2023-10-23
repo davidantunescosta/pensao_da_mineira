@@ -73,6 +73,8 @@ a {
 img {
   max-width: 100%;
   height: auto;
+  border-radius: 5%;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.733);
 }
 
 /*---------------------BOTÕES-----------------*/
@@ -347,6 +349,7 @@ img {
   justify-content: center;
   text-align: center;
   margin-top: var(--mb-3);
+  gap: 25px;
 }
 
 .chefs {
@@ -453,7 +456,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 1rem;
+  padding: 0.5rem;
   cursor: pointer;
   transition: 0.4s;
 }
@@ -501,6 +504,9 @@ img {
 /*------------- CONTATO ------------*/
 .contato_container {
   padding: 1rem 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .contato_cta {
@@ -525,7 +531,7 @@ img {
   margin-bottom: var(--mb-2);
 }
 
-.contato_form .contato_title {
+/*.contato_form .contato_title {
   text-align: center;
 }
 
@@ -553,7 +559,7 @@ textarea {
   position: absolute;
   right: 0;
   bottom: 0;
-}
+}*/
 
 /*------------- COMPRATILHAR --------------*/
 .compartilhar {
@@ -611,7 +617,6 @@ textarea {
 
 .company,
 .services,
-.info,
 .addres {
     display: flex;
     flex-direction: column;
